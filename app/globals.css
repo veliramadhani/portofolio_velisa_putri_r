@@ -246,6 +246,10 @@ section { scroll-margin-top: 90px; }
   padding: 3px 12px; border-radius: 999px; font-size: 0.78rem; font-weight: 600;
 }
 .doc-buttons { display: flex; justify-content: center; flex-wrap: wrap; gap: 14px; margin-top: 56px; }
+.doc-buttons .btn {
+  border-radius: 999px;
+  padding: 10px 24px;
+}
 
 /* ── CONTACT CTA ─────────────────────────────────────────────────────────── */
 .cta {

@@ -14,9 +14,10 @@ const profile = {
   github: "https://github.com/veliramadhani",
   linkedin: "https://www.linkedin.com/in/velisa-putri-ramadhani-6315ab31b/",
   instagram: "https://www.instagram.com/veli_ramadhani",
-  certificate: "#",
+  certificate: "/Certificate_Velisa_Putri_Ramadhani.pdf",
   cv: "/CV_Velisa_Putri_Ramadhani.pdf",
   social: "https://www.instagram.com/veli_ramadhani",
+  larkDocs: "#",
 };
 
 const stack = [
@@ -394,8 +395,10 @@ export default function Home() {
         </div>
 
         <div id="docs" className="doc-buttons">
+          <a className="btn btn-outline" href={profile.certificate} target="_blank" rel="noopener noreferrer">My Certificate</a>
           <a className="btn btn-outline" href={profile.cv} target="_blank" rel="noopener noreferrer">View CV</a>
-          <a className="btn btn-outline" href={profile.social}>Social Media</a>
+          <a className="btn btn-outline" href={profile.social} target="_blank" rel="noopener noreferrer">View Social Media</a>
+          <a className="btn btn-outline" href={profile.larkDocs} target="_blank" rel="noopener noreferrer">Lark Docs by Me</a>
         </div>
       </section>
 
